@@ -1,0 +1,103 @@
+
+
+body{ font-family: 'Times New Roman', Times, serif;
+    background-image: url(background.jpg);}
+
+#container
+{   max-width: 1500px;
+    font-size: 20px;
+    margin: 10px;
+    padding-right: 30px;
+     padding-left:25px
+       }
+
+#header{
+        height:300px;
+        width: 100%;
+        border-radius:10px ;
+        border-color: black;
+        align-content: center;
+        background-position: right 1px;
+        background-image: url(cinema.png)}
+#slogan{
+        font-size: 30px;
+        padding-top: 0%;
+        color: rgb(61, 240, 54);
+        text-align: left;
+        margin-top:0px}
+#heading{
+    font-size: 90px;
+    color: white;
+    text-align: left; }
+
+  #nav{
+      font-size: 20px;
+       text-indent: -40px;
+        word-spacing: 250px;
+      display: inline-block;
+      }
+       
+
+      a:hover{ background-color: #3c7cae;}
+
+
+   #sidebar{
+    width:300px;
+    float:left; }  
+
+   h1{text-decoration: underline;
+          font-style: italic;}
+
+     h2{
+          text-decoration: underline;
+          color: #3c7cae;}
+
+    img{
+          height:50px;
+          width:60px;}
+
+    #registrationform{width:100%}
+
+     #sighting, #Store, #activity{border-style: solid;}
+
+     #historylogo{ 
+               border-style: solid;
+              width:650px;
+              height:450px;  }
+
+              #heading{
+                font-size: 90px;
+                color: white;
+                text-align: left; }
+            
+     #events{ align-content: center;
+                          padding-left: 25%;
+                          width:50%;}
+            
+                        
+     #img1, #img2, #img3 { 
+                border-style: solid;
+                 width: 700px;
+                 height: 500px;}
+            
+                 
+     #slideshow{ 
+    float: right;
+    height:450px;
+    margin: 23px;
+    padding-top:23px;
+    width:850px;
+    border-style: solid;
+    background:url(movie-1.png);
+    animation:slide 10s infinite;}
+
+    @keyframes slide{
+        25% {background:url(movie-1.png)}
+        50% {background:url(movie-2.png)}
+        75% {background:url(movie-3.png)}
+        100% {background:url(movie-4.png)}
+    }
+     #footer{ border-style: none;
+        padding-top: 25px;
+            clear:both;
+            word-spacing:50px}   
